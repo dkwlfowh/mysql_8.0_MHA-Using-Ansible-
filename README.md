@@ -1,7 +1,10 @@
 # mysql_8.0_MHA-Using-Ansible-
 
 ### 1. Ansible Download
-
+```
+yum -y install epel-release
+yum -y install ansible
+```
 
 ### 2. Ansible.cfg 수정
 ```
