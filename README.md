@@ -28,7 +28,7 @@ git clone https://github.com/dkwlfowh/mysql_8.0_MHA-Using-Ansible-.git
 
 ### 6. vars/main.yml 변수들 환경에 맞게 수정 ( ex, DB Server IP / DB 설치 파일 )
 
-*DB 설치 파일이 templates/ 디렉토리에 업로드 해주어야된다.
+**DB 설치 파일이 templates/ 디렉토리에 업로드 해주어야된다.**
 ```
 vim /etc/ansible/roles/mysql/vars/main.yml
 ---
