@@ -4,21 +4,26 @@
 
 
 ### 2. Ansible.cfg 수정
-
-
-### 3. /etc/hosts 수정 ( Ansible 서버 ) 
 ```
 vim /etc/ansible/ansible.cfg
 [defaults]
 host_key_checking = False
 ```
 
-### 4. ansible hosts 등록 ( Ansible 서버 ) 
+### 3. /etc/hosts 수정 ( Ansible 서버 ) 
 ```
-vim /etc/ansible/hosts
+vim /etc/hosts
 192.168.100.20 master
 192.168.100.21 slave
 192.168.100.22 manager
+```
+
+### 4. ansible hosts 등록 ( Ansible 서버 ) 
+```
+vim /etc/ansible/hosts
+master
+slave
+manager
 ```
 
 ### 5. git down 
