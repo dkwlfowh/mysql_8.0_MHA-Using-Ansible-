@@ -16,7 +16,9 @@
 
 
 ###6. vars/main.yml 변수들 환경에 맞게 수정 ( ex, DB Server IP / DB 설치 파일 )
-*DB 설치 파일이 templates/ 디렉토리에 존재해야한다.
+
+
+*DB 설치 파일이 templates/ 디렉토리에 업로드 해주어야된다.
 
 
 ###7. Key YML 파일 실행
