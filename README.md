@@ -1,6 +1,6 @@
 # mysql_8.0_MHA-Using-Ansible-
 
-### > Ansible을 이용하여 MySQL Binary install로 MHA를 구성하는 방법이다. 원하는 버전의 MySQL Tar.gz을 Ansible 서버에 올리고 templates에 넣어 실행하면된다. 
+### Ansible을 이용하여 MySQL Binary install로 MHA를 구성하는 방법이다. 원하는 버전의 MySQL Tar.gz을 Ansible 서버에 올리고 templates에 넣어 실행하면된다. 
 
 ### 1. Ansible Download
 ```
